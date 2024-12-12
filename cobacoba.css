@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #FFF8DC;
+  }
+  
+  .sidebar {
+    width: 300px;
+    background-color: #FFF8DC;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  .sidebar h1 {
+    color: #FF7F50;
+    text-align: center;
+  }
+  
+  .sidebar label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #FF7F50;
+    font-weight: bold;
+  }
+  
+  .sidebar input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .sidebar button {
+    padding: 10px;
+    width: 100%;
+    background-color: #FF7F50;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .sidebar button:hover {
+    background-color: #FF6347;
+  }
+  .sidebar .identity {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #FF7F50;
+    color: cornsilk;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .sidebar .identity p {
+    margin: 5px 0;
+  }
+  
+  .sidebar .identity a {
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .sidebar .identity a:hover {
+    text-decoration: underline;
+    color: #FFD700; /* Warna saat hover */
+  }
+  #map {
+    flex: 1;
+    height: 100vh;
+  }
+  
